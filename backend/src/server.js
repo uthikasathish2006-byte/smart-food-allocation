@@ -35,8 +35,8 @@ app.use('/api', routes);
 app.use(errorHandler);
 
 // Start HTTP Server
-const server = app.listen(PORT, () => {
+
   console.log(`Smart Food Allocation API server is running on port ${PORT}`);
 });
-
+const server = app.listen(PORT, '0.0.0.0', () => {
 export default app;
