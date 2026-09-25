@@ -1,0 +1,32 @@
+{
+  "name": "smart-food-allocation-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Smart Food Allocation Optimization System (SDG 2 - Zero Hunger)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "sdg2",
+    "zero-hunger",
+    "express",
+    "nodejs",
+    "postgresql",
+    "food-allocation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
